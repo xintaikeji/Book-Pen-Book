@@ -1,10 +1,9 @@
-## 使用方法[视频教程](https://youtu.be/sWy9gCBA5Lo)
+## 使用方法
 1. 新建一个私人仓库，项目可随意命名，但要避开 BPB 敏感词。
 2. 在该项目创建`.github/workflows/Obfuscate.yml`。
 3. 复制`创建仓库源码.js`的代码，粘贴到项目，保存。
 4. 点击`Obfuscate.yml`旁边的小黄点同步到 BPB 代码，同步完成生成`_worker.js`与`origin.js`，前者是混淆代码，后者是明文代码。如果找不到小黄点，请前往：`你的项目`→`Actions`→左边的`Build Obfuscate BPB Panel`→中间的`Build Obfuscate BPB Panel`的工作流文件是否有效。
 7. 到`Cloudflare`里创建`Pages+github`，找到刚刚的 github 项目，用其创建 Pages 项目，并修改下面的变量及绑定 kv 空间。
-8. 引用请注明出处：[SO启程Github](https://github.com/Setout8/Book-Pen-Book)。
 
 ## 变量的使用
 1. `UUID`，[在线生成](https://1024tools.com/uuid)。
